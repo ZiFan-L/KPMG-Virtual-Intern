@@ -9,6 +9,8 @@ Created on Sun Jul  5 16:25:45 2020
 import pandas as pd
 import numpy as np
 import seaborn as sns
+import matplotlib.pyplot as plt
+
 file = 'KPMG_VI_New_raw_data_update_final.xlsx'
 xls = pd.ExcelFile(file)
 print(xls.sheet_names)
